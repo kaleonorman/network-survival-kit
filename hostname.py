@@ -7,6 +7,3 @@ def host():
 
 host()
 
-
-
-

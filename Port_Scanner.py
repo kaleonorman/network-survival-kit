@@ -12,4 +12,5 @@ for x in range(int(start),int(finish)):
 	con = s.connect_ex((ip,x))
 	if con == 0:
 		print("Port", x, ": OPEN")
+
 s.close()
