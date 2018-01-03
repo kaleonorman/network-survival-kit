@@ -1,8 +1,8 @@
 import socket
 
 domain = input('Please input the domain name: ') 	
-ip = socket.gethostbyname(domain);
-print (ip);
+ip = socket.gethostbyname(domain)
+print (ip)
 
 start = input('Scan from range: ')
 finish = input('To range: ')		
